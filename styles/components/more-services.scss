@@ -1,0 +1,11 @@
+.more-services {
+  border-bottom: 1px solid black;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.more-services > .list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}

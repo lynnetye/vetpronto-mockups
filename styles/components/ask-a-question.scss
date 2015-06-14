@@ -1,0 +1,10 @@
+.ask-a-question {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
+.ask-a-question input[type="text"] {
+  padding: 10px 50px;
+}

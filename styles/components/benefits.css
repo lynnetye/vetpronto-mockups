@@ -1,0 +1,22 @@
+.benefits {
+  align-items: flex-end;
+  border-bottom: 1px solid black;
+  padding: 20px 0px 50px;
+  display: flex; }
+
+.benefits li {
+  text-align: center;
+  width: 25%; }
+
+.benefits p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px; }
+
+.benefits img {
+  width: 250px; }
+
+.no-stress-pet img {
+  width: 200px; }
+
+/*# sourceMappingURL=benefits.css.map */

@@ -1,0 +1,103 @@
+html {
+  font-family: 'Open Sans';
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.hero {
+  /*background-image: url("http://cdn2.hubspot.net/hub/463063/file-2667866158-jpg/newsplash_med-263958-edited.jpg?t=1433871978389");*/
+  background-size: initial;
+  background-position: 0px -90px;
+  border: 1px solid black;
+  height: 600px;
+}
+
+.hero_banner {
+  font-size: 30px;
+  padding: 100px;
+}
+
+.how-it-works {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.more-services {
+  border-bottom: 1px solid black;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.more-services > .list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.benefits {
+  align-items: flex-end;
+  border-bottom: 1px solid black;
+  padding: 20px 0px 50px;
+  display: flex;
+}
+
+.benefits li {
+  text-align: center;
+  width: 25%;
+}
+
+.benefits p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.benefits img {
+  width: 250px;
+}
+
+.no-stress-pet img {
+  width: 200px;
+}
+
+
+.meet-our-vets {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
+.ask-a-question {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
+.client-testimonials {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
+.blog {
+  border-bottom: 1px solid black;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+footer {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+}

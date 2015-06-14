@@ -104,16 +104,32 @@ header {
   padding: 20px 50px; }
 
 .hero {
-  /*background-image: url("http://cdn2.hubspot.net/hub/463063/file-2667866158-jpg/newsplash_med-263958-edited.jpg?t=1433871978389");*/
-  background-size: initial;
+  background-image: url("http://cdn2.hubspot.net/hub/463063/file-2667866158-jpg/newsplash_med-263958-edited.jpg?t=1433871978389");
+  background-size: cover;
   background-position: 0px -90px;
   border: 1px solid black;
   font: 100% "Open Sans";
   height: 600px; }
 
-.hero_banner {
-  font-size: 30px;
-  padding: 100px; }
+.hero__banner {
+  font-size: 32px;
+  padding: 60px; }
+
+.hero__button {
+  border: none;
+  border-radius: 3px;
+  display: block;
+  font: 100% "Open Sans";
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 250px; }
+
+.hero__button--book-appointment {
+  background-color: #b01c21; }
+
+.hero__button--other-services {
+  background-color: #a38f8f; }
 
 .how-it-works {
   border-bottom: 1px solid black;
